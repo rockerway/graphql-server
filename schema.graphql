@@ -1,0 +1,62 @@
+type Query {
+  screen(id: ID!): Screen
+  screens: [Screen]
+  character(id: ID!): Character
+  characters: [Character]
+  player(name: String!): [Character]
+}
+
+type Mutation {
+  createCharacter(input: CreateCharacterInput): Character
+  updateCharacter(input: UpdateCharacterInput): Character
+}
+
+type Screen {
+  id: ID!
+  name: String
+  backgroundName: String
+  characters: [Character]
+  items: [Item]
+}
+
+type Character {
+  id: ID!
+  screenID: ID!
+  name: String!
+  role: String!
+  imageName: String!
+  level: String!
+  x: Int!
+  y: Int!
+}
+
+type Item {
+  id: ID!
+  screenID: ID!
+  image: String!
+  width: Int!
+  height: Int!
+  x: Int!
+  y: Int!
+}
+
+input CreateCharacterInput {
+  screenID: ID
+  name: String
+  role: String
+  imageName: String
+  level: String
+  x: Int
+  y: Int
+}
+
+input UpdateCharacterInput {
+  id: ID
+  screenID: ID
+  name: String
+  role: String
+  imageName: String
+  level: String
+  x: Int
+  y: Int
+}

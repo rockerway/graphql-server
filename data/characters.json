@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "screenID": "5",
+    "name": "jaKC",
+    "role": "boss",
+    "imageName": "role1",
+    "level": "???",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "2",
+    "screenID": "5",
+    "name": "YoSi",
+    "role": "boss",
+    "imageName": "role4",
+    "level": "???",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "3",
+    "screenID": "5",
+    "name": "Climu",
+    "role": "boss",
+    "imageName": "role5",
+    "level": "???",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "4",
+    "screenID": "5",
+    "name": "Ace",
+    "role": "npc",
+    "imageName": "role2",
+    "level": "200 plus",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "5",
+    "screenID": "5",
+    "name": "Chrome",
+    "role": "npc",
+    "imageName": "role3",
+    "level": "200 plus",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "6",
+    "screenID": "5",
+    "name": "Angular",
+    "role": "npc",
+    "imageName": "role6",
+    "level": "200 plus",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "7",
+    "screenID": "5",
+    "name": "Hack",
+    "role": "npc",
+    "imageName": "role7",
+    "level": "200",
+    "x": 0,
+    "y": 0
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Start",
+    "backgroundName": "default"
+  },
+  {
+    "id": "2",
+    "name": "Home",
+    "backgroundName": "home"
+  },
+  {
+    "id": "3",
+    "name": "Map",
+    "backgroundName": "map"
+  },
+  {
+    "id": "4",
+    "name": "Meeting Room",
+    "backgroundName": "default"
+  },
+  {
+    "id": "5",
+    "name": "7樓可怕的地方",
+    "backgroundName": "default"
+  },
+  {
+    "id": "6",
+    "name": "9樓一堆God的地方，可是我叫Tod >.<",
+    "backgroundName": "default"
+  }
+]
