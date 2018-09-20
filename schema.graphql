@@ -16,7 +16,7 @@ type Screen {
   name: String
   backgroundName: String
   characters: [Character]
-  items: [Item]
+  mapObjects: [MapObject]
 }
 
 type Character {
@@ -26,18 +26,32 @@ type Character {
   role: String!
   imageName: String!
   level: String!
-  x: Int!
-  y: Int!
+  xRatio: Float!
+  yRatio: Float!
+  events: [Event]
+  action: String
+  mantra: String
 }
 
-type Item {
+type Event {
+  characterID: ID!
+  levelLimit: Int!
+  keyword: String!
+  info: String!
+  validate: String
+  validateSeparator: String
+  lv: Int!
+}
+
+type MapObject {
   id: ID!
   screenID: ID!
-  image: String!
-  width: Int!
-  height: Int!
-  x: Int!
-  y: Int!
+  name: String
+  imageName: String!
+  targetScreenID: ID!
+  action: String!
+  xRatio: Float!
+  yRatio: Float!
 }
 
 input CreateCharacterInput {
@@ -46,8 +60,10 @@ input CreateCharacterInput {
   role: String
   imageName: String
   level: String
-  x: Int
-  y: Int
+  xRatio: Float
+  yRatio: Float
+  action: String
+  mantra: String
 }
 
 input UpdateCharacterInput {
@@ -57,6 +73,8 @@ input UpdateCharacterInput {
   role: String
   imageName: String
   level: String
-  x: Int
-  y: Int
+  xRatio: Float
+  yRatio: Float
+  action: String
+  mantra: String
 }

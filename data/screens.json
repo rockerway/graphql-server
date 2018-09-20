@@ -17,16 +17,16 @@
   {
     "id": "4",
     "name": "Meeting Room",
-    "backgroundName": "default"
+    "backgroundName": "meetingRoom"
   },
   {
     "id": "5",
     "name": "7樓可怕的地方",
-    "backgroundName": "default"
+    "backgroundName": "work1"
   },
   {
     "id": "6",
     "name": "9樓一堆God的地方，可是我叫Tod >.<",
-    "backgroundName": "default"
+    "backgroundName": "work2"
   }
 ]

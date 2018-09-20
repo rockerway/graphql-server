@@ -6,8 +6,10 @@
     "role": "boss",
     "imageName": "role1",
     "level": "???",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.6,
+    "yRatio": 0.3,
+    "action": "communicate",
+    "mantra": "掰"
   },
   {
     "id": "2",
@@ -16,8 +18,10 @@
     "role": "boss",
     "imageName": "role4",
     "level": "???",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.9,
+    "yRatio": 0.5,
+    "action": "communicate",
+    "mantra": "^.^"
   },
   {
     "id": "3",
@@ -26,8 +30,10 @@
     "role": "boss",
     "imageName": "role5",
     "level": "???",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.3,
+    "yRatio": 0.3,
+    "action": "communicate",
+    "mantra": "no JAVA"
   },
   {
     "id": "4",
@@ -36,8 +42,10 @@
     "role": "npc",
     "imageName": "role2",
     "level": "200 plus",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.7,
+    "yRatio": 0.7,
+    "action": "communicate",
+    "mantra": "Go~"
   },
   {
     "id": "5",
@@ -46,8 +54,10 @@
     "role": "npc",
     "imageName": "role3",
     "level": "200 plus",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.7,
+    "yRatio": 0.3,
+    "action": "communicate",
+    "mantra": "Tod and toad"
   },
   {
     "id": "6",
@@ -56,8 +66,10 @@
     "role": "npc",
     "imageName": "role6",
     "level": "200 plus",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.5,
+    "yRatio": 0.3,
+    "action": "communicate",
+    "mantra": "windows 怎麼用??!"
   },
   {
     "id": "7",
@@ -66,7 +78,45 @@
     "role": "npc",
     "imageName": "role7",
     "level": "200",
-    "x": 0,
-    "y": 0
+    "xRatio": 0.8,
+    "yRatio": 0.3,
+    "action": "communicate",
+    "mantra": "滿江紅"
+  },
+  {
+    "id": "HJ28X6CO7",
+    "screenID": "5",
+    "name": "k",
+    "role": "player",
+    "imageName": "player",
+    "level": "256",
+    "xRatio": 0.6928571428571427,
+    "yRatio": 0.71,
+    "action": "",
+    "mantra": ""
+  },
+  {
+    "id": "H1XCRXkYm",
+    "screenID": "5",
+    "name": "Kind of Sky Light",
+    "role": "player",
+    "imageName": "player",
+    "level": "16",
+    "xRatio": 0.6714285714285714,
+    "yRatio": 0.71,
+    "action": "",
+    "mantra": ""
+  },
+  {
+    "id": "HyRo3u1KQ",
+    "screenID": "5",
+    "name": "Kind of Sky",
+    "role": "player",
+    "imageName": "player",
+    "level": "99",
+    "xRatio": 0.9071428571428571,
+    "yRatio": 0.51,
+    "action": "",
+    "mantra": ""
   }
 ]

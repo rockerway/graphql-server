@@ -1,0 +1,92 @@
+[
+  {
+    "characterID": "4",
+    "levelLimit": 2,
+    "keyword": "learn",
+    "info": "AWS 的 Cloudformation 是個強大的東東",
+    "validate": "AWSTemplateFormatVersion: 2010-09-09",
+    "validateSeparator": "\n",
+    "lv": 10
+  },
+  {
+    "characterID": "4",
+    "levelLimit": 2,
+    "keyword": "CI/CD",
+    "info": "U just need to catch Docker...",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 2
+  },
+  {
+    "characterID": "6",
+    "levelLimit": 3,
+    "keyword": "Route53",
+    "info": "先 dig 看看，網路先看看斷在哪",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 3
+  },
+  {
+    "characterID": "5",
+    "levelLimit": 10,
+    "keyword": "TDD",
+    "info": "所謂的 TDD 最終還是為了需求而生的開發模式，軟體工程是個很龐大的領域，寫 Code 是最簡單的部分",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 3
+  },
+  {
+    "characterID": "1",
+    "levelLimit": 30,
+    "keyword": "TokenExchange",
+    "info": "使用 ECDSA 加密的 JWK 進行 subject token 的 security key",
+    "validate": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "validateSeparator": ".",
+    "lv": 10
+  },
+  {
+    "characterID": "1",
+    "levelLimit": 30,
+    "keyword": "PoP的nonce為何payload要先hash",
+    "info": "hash 用在包 nonce 時可以減少字串長度，降低 ECDSA 簽章的成本",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 2
+  },
+  {
+    "characterID": "1",
+    "levelLimit": 30,
+    "keyword": "好多RFC要讀喔",
+    "info": "先讀 RFC 6749，對~~",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 1
+  },
+  {
+    "characterID": "1",
+    "levelLimit": 30,
+    "keyword": "我以為我懂，其實我不懂，而且我不懂我哪裡不懂",
+    "info": "Just do it",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 1
+  },
+  {
+    "characterID": "3",
+    "levelLimit": 30,
+    "keyword": "Python的Address這麼不認真",
+    "info": "讓我告訴你 Wave Reference，從 Computer Organization 聊到 GC 實現",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 5
+  },
+  {
+    "characterID": "2",
+    "levelLimit": 30,
+    "keyword": "LL大大說明為了code簡潔甚至有團隊限制function只能在幾行內解決",
+    "info": "更可怕的是有限制 function 調用層級...",
+    "validate": "",
+    "validateSeparator": "",
+    "lv": 2
+  }
+]
